@@ -3,11 +3,11 @@
 Move forward and backward in an [A-Frame](http://aframe.io) environment on your phone or tablet.   
 Supports Portrait, Landscape and Cardboard modes.  
 
-![gif](https://fasility.com/components/twoway-motion/demos/twoway-motion-3.gif)
+![gif](https://ctrl-alt-zen.github.io/aframe-mobile-controls-demos/demos/twoway-motion/twoway-motion-3.gif)
 
 ## Demos
 
-- [Fancy House by 3Dio](https://fasility.com/components/twoway-motion/demos/fancy-house.html) 
+- [Fancy House by 3Dio](https://ctrl-alt-zen.github.io/aframe-mobile-controls-demos/demos/twoway-motion/fancy-house.html) 
 
 Tap and hold to move forward. To move backward, look downward and tap. (If you have a cursor, it will turn orange when looking downward.) Movement speed and downward threshold are adjustable.  
 
