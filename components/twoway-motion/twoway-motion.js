@@ -1,6 +1,6 @@
 // usage: 
 // <a-camera two-way="speed: 50; threshold: -20"></a-camera>
-// 
+// Must be attached to an entity with a camera
 AFRAME.registerComponent('twoway-motion', {
     schema: {
         speed: { type: "number", default: 40 },
@@ -10,7 +10,7 @@ AFRAME.registerComponent('twoway-motion', {
         chatty: {type: "boolean", default: true }
     },
     init: function () {
-        var twowaymotion = document.querySelector("[camera]").components["twoway-motion"];
+        var twowaymotion = this;
         twowaymotion.componentName = "twoway-motion";
         report = function(text) {
             if (twowaymotion.data.chatty) {
